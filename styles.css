@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url("https://use.typekit.net/cmm2yxs.css");
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+html{
+    background-color: #FFFFFF;
+    color: #303A2B;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'basic-sans', 'sans-serif', 'arial', 'verdana';
+    font-weight: 400;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+/*layout and spacing*/
+
+main, header{
+    padding: 1rem 2rem 1rem 2rem;
+    max-width: 37.375rem;
+    margin: 1rem auto;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+.table {
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+/*typography*/
+
+main{
+    padding: 1rem 2rem 1rem 2rem;
+    max-width: 38rem;
+    margin: 1rem auto;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Bayon', 'serif', 'georgia', 'Times New Roman';
+    color: #6E9887;
+    line-height: 1.2em;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Basic-sans', 'serif', 'georgia', 'Times New Roman';
+    color: #BA5526;
+    line-height: 1.2em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+
+dt{
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+    color:#BA5526;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    
+}
