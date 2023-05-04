@@ -19,6 +19,12 @@ html{
     font-family: 'basic-sans', 'sans-serif', 'arial', 'verdana';
     font-weight: 400;
 }
+body{
+    background-image: url(assets/top_design.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
 
 p{
     margin-bottom: 1rem;
@@ -29,7 +35,7 @@ p{
 main, header{
     padding: 1rem 2rem 1rem 2rem;
     max-width: 37.375rem;
-    margin: 1rem auto;
+    margin: auto;
 }
 
 p{
@@ -88,3 +94,35 @@ ul{
     line-height: 1.2em;
     
 }
+
+.tagline{
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+.topspace{
+    margin-top: -1rem;
+}
+
+/*design*/
+
+footer{
+    background-color: #BA5526;
+    text-align:center;
+    padding: 2rem;
+    
+
+}
+
+.logo{
+    margin-top: 4rem;
+}
+
+.toc{
+   max-width: fit-content;
+   align-items: center;
+}
+
