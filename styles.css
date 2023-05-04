@@ -84,6 +84,8 @@ h3{
 
 dt{
     font-weight: 700;
+    margin-bottom: .1rem;
+    margin-top: .3rem;
 }
 
 ul{
@@ -120,9 +122,9 @@ footer{
     margin-top: 4rem;
 }
 
-.toc{
-   max-width: fit-content;
-   align-items: center;
+nav{
+   width: 70%;
+   margin: 0 auto;
 }
 
 /*links*/ 
@@ -202,29 +204,29 @@ nav a:link{
         font-size: 1.3rem;
     }
 
-    .light{
-        display: grid;
-        grid-template-columns:  30% 30% 30%;
-        grid-gap: 1rem;
+    .threecolumn{
+        display: flex;
+        gap: 1.5rem;
     }
 
-    .plants{
-        display: grid;
-        grid-template-columns:  30% 30% 30%;
-        grid-gap: 1rem;
-    }
+  
 
-    .intro{
-        display: grid;
-        grid-template-columns: 80% 20%;
-        margin-bottom: 3.5rem;
-        grid-gap: 1rem;
-        grid-column: 2/2;
-    }
+  .twocolumn{
+    display: flex;
+    gap: 1.2rem;
 
-    .introheading{
-        grid-column: 1/2;
-    }
-   
+  }
+
+  .description{
+    width: 70%;
+  }
+
+  main{
+    max-width: 43rem;
+}
+.topspace{
+    margin-top: -2rem;
+    text-align: left;
+}
 
 }
