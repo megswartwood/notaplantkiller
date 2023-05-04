@@ -88,7 +88,6 @@ dt{
 
 ul{
     list-style-type: none;
-    color:#BA5526;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.2em;
@@ -126,3 +125,92 @@ footer{
    align-items: center;
 }
 
+/*links*/ 
+
+nav a:link{
+    text-decoration: none;
+    color:#BA5526;
+ }
+
+ nav a:visited{
+    color: #BA5526;
+    
+ }
+
+ nav a:hover{
+    color:#BA5526;
+    font-weight: 1000;
+ }
+
+ nav a:focus{
+   outline: #BA5526 solid;
+ }
+
+ nav a:active{
+    border-bottom: 2px solid;
+ }
+
+ a:link{
+    color:#303A2B;
+
+    
+ }
+
+ a:visited{
+    color: #303A2B;
+    
+ }
+
+ a:hover{
+    color:#BA5526;
+    font-weight: 1000;
+ }
+
+ a:focus{
+   outline: #BA5526 solid;
+ }
+
+ a:active{
+    border-bottom: 2px solid;
+ }
+
+
+ /*media queries*/
+
+
+@media screen and (min-width: 62rem){
+    html{ 
+        font-size: 1.1rem;
+    }
+
+  
+}
+  
+
+@media screen and (min-width:80rem) {
+    html{
+        font-size: 1.2rem;
+     }
+
+    }
+
+@media screen and (min-width: 85rem) {
+    html{
+        font-size: 1.3rem;
+    }
+    .photoandtitle{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin-bottom: 3.5rem;
+    }
+
+    .allcapstitle{
+        font-size: 1.3rem;
+        text-align: left;
+       
+    }
+
+    main{
+        max-width: 42rem;
+    }
+}
