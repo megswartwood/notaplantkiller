@@ -127,9 +127,19 @@ nav{
    margin: 0 auto;
 }
 
-img{
-    width: 100%;
+/*images*/
+
+img.plant{
+    width: 300px;
+    
 }
+
+.plant{
+    display:flex;
+    justify-content: center;
+}
+
+
 
 /*links*/ 
 
@@ -226,7 +236,7 @@ nav a:link{
   }
 
   main{
-    max-width: 43rem;
+    max-width: 50rem;
 }
 .topspace{
     margin-top: -2rem;
@@ -253,6 +263,10 @@ nav a:link{
    margin-top: 2rem;
    
     
+}
+
+img{
+    width: 100%;
 }
 }
 
