@@ -127,6 +127,10 @@ nav{
    margin: 0 auto;
 }
 
+img{
+    width: 100%;
+}
+
 /*links*/ 
 
 nav a:link{
