@@ -104,9 +104,13 @@ ul{
     margin-top: -1rem;
 }
 
-.topspace{
-    margin-top: -1rem;
+.books{
+    list-style-type: none;
+    font-style: italic;
+    font-size: 1rem;
 }
+
+
 
 /*design*/
 
@@ -114,8 +118,6 @@ footer{
     background-color: #BA5526;
     text-align:center;
     padding: 2rem;
-    
-
 }
 
 .logo{
@@ -125,6 +127,10 @@ footer{
 nav{
    width: 70%;
    margin: 0 auto;
+}
+
+.topspace{
+    margin-top: -1rem;
 }
 
 /*images*/
@@ -144,7 +150,6 @@ img.plant{
 /*links*/ 
 
 nav a:link{
-    text-decoration: none;
     color:#BA5526;
  }
 
