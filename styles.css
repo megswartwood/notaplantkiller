@@ -190,6 +190,29 @@ nav a:link{
     border-bottom: 2px solid;
  }
 
+ a.top{
+    color:#FFFFFF;
+ }
+
+ a.top visited{
+    color:#FFFFFF;
+
+ }
+
+ a.top hover{
+    font-weight: 1000;
+ }
+
+ a.top focus{
+    outline: #FFFFFF solid;
+
+ }
+
+ a.top active{
+    border-bottom: 2px solid;
+ }
+
+
 
  /*media queries*/
 
