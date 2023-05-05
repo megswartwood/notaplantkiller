@@ -213,7 +213,7 @@ nav a:link{
 
   .twocolumn{
     display: flex;
-    gap: 1.2rem;
+    gap: 1.3rem;
 
   }
 
@@ -228,5 +228,27 @@ nav a:link{
     margin-top: -2rem;
     text-align: left;
 }
-
+.description2{
+    width: 70%;
+    align-content: center;
 }
+
+.centered{
+    width: 35%;
+    padding: 0rem;
+}
+
+.topspace1{
+    margin-top: 2rem;
+    text-align: left;
+    padding-top: 0rem;
+}
+
+.description1{
+   width: 70%;
+   margin-top: 2rem;
+   
+    
+}
+}
+
