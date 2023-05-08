@@ -63,9 +63,8 @@ h2{
     line-height: 1.2em;
     font-style: normal;
     text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
     text-transform: uppercase;
+    margin-bottom: 1rem;
     
 }
 
@@ -77,8 +76,8 @@ h3{
     line-height: 1.2em;
     font-style: italic;
     text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
+    margin-bottom: 1rem;
+    
 }
 
 
@@ -129,8 +128,18 @@ nav{
    margin: 0 auto;
 }
 
-.topspace{
-    margin-top: -1rem;
+
+
+.modules{
+    margin-bottom: 2rem;
+}
+
+dl{
+    margin-bottom: 2rem;
+}
+
+.centered{
+    text-align: center;
 }
 
 /*images*/
@@ -256,6 +265,8 @@ nav a:link{
   .twocolumn{
     display: flex;
     gap: 1.3rem;
+    justify-content: space-between;
+    align-items: flex-start;
 
   }
 
@@ -266,19 +277,15 @@ nav a:link{
   main{
     max-width: 50rem;
 }
-.topspace{
-    margin-top: -2rem;
-    text-align: left;
-}
-.description2{
-    width: 70%;
-    align-content: center;
+
+h2{
+    width: calc(30% - 1rem);
 }
 
-.centered{
-    width: 35%;
-    padding: 0rem;
+.fullwidth{
+    width: 100%;
 }
+
 
 .topspace1{
     margin-top: 2rem;
@@ -286,12 +293,11 @@ nav a:link{
     padding-top: 0rem;
 }
 
-.description1{
-   width: 70%;
-   margin-top: 2rem;
-   
-    
+h3{
+    font-size: 1.18rem;
 }
+
+
 
 img{
     width: 100%;
